@@ -1,0 +1,2 @@
+package vn.edu.eaut.lab6.controller; import jakarta.servlet.annotation.WebServlet; import jakarta.servlet.http.*; import java.io.*;
+@WebServlet("/hello") public class HelloServlet extends HttpServlet { protected void doGet(HttpServletRequest q,HttpServletResponse p)throws IOException{p.setContentType("text/html;charset=UTF-8");p.getWriter().println("<h1>Hello, Servlet - Lab 6 Công nghệ Java</h1><p>Bài 1 hoàn thành.</p><a href='index.jsp'>Trang chủ</a>");}}

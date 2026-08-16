@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=UTF-8" %><html><body style="font-family:Arial;text-align:center;margin:70px"><h1>403 - Forbidden</h1><p>Bạn không có quyền thực hiện chức năng quản trị.</p><a href="${pageContext.request.contextPath}/dashboard">Về Dashboard</a></body></html>

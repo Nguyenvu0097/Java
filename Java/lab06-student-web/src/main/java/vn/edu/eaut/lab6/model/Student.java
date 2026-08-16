@@ -1,0 +1,2 @@
+package vn.edu.eaut.lab6.model;
+public class Student { private String id,name,className,email; public Student(){} public Student(String id,String name,String className,String email){this.id=id;this.name=name;this.className=className;this.email=email;} public String getId(){return id;} public void setId(String v){id=v;} public String getName(){return name;} public void setName(String v){name=v;} public String getClassName(){return className;} public void setClassName(String v){className=v;} public String getEmail(){return email;} public void setEmail(String v){email=v;} }
