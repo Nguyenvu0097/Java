@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=UTF-8" %><h2>Dashboard</h2><p>Xin chào ${sessionScope.username}</p><p>Sinh viên: ${sv}</p><p>Sách: ${sach}</p><p>Sản phẩm: ${sp}</p><a href="${pageContext.request.contextPath}/logout">Đăng xuất</a>

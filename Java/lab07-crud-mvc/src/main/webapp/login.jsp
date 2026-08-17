@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=UTF-8" %><h2>Đăng nhập</h2><p style="color:red">${error}</p><form method="post" action="${pageContext.request.contextPath}/login">Username: <input name="username"><br>Password: <input type="password" name="password"><br><button>Đăng nhập</button></form><p>admin/123456 hoặc user/123456</p>

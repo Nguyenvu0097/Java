@@ -1,0 +1,1 @@
+package vn.edu.eaut.lab7.listener;import jakarta.servlet.*;import jakarta.servlet.annotation.*;@WebListener public class AppListener implements ServletContextListener{public void contextInitialized(ServletContextEvent e){System.out.println("[Lab7] Application started");}public void contextDestroyed(ServletContextEvent e){System.out.println("[Lab7] Application stopped");}}

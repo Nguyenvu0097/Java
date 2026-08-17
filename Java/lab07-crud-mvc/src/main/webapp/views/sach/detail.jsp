@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=UTF-8" %><h2>Chi tiết sách</h2><p>${sach.maSach} - ${sach.tenSach}</p><p>Tác giả: ${sach.tacGia}</p><p>NXB: ${sach.nhaXuatBan}</p><p>Năm: ${sach.namXuatBan}</p>
