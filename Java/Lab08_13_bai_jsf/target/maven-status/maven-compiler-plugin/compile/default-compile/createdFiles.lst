@@ -1,0 +1,8 @@
+vn\edu\eaut\lab8\bean\SachBean.class
+vn\edu\eaut\lab8\model\Sach.class
+vn\edu\eaut\lab8\bean\LoginBean.class
+vn\edu\eaut\lab8\model\SinhVien.class
+vn\edu\eaut\lab8\bean\SinhVienBean.class
+vn\edu\eaut\lab8\bean\ProductBean.class
+vn\edu\eaut\lab8\repository\SinhVienRepository.class
+vn\edu\eaut\lab8\model\SanPham.class

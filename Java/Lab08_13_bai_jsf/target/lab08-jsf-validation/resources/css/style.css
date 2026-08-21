@@ -1,0 +1,36 @@
+/* Lab 8 - Modern JSF UI */
+:root{--primary:#2563eb;--primary-dark:#1e40af;--nav:#0f172a;--bg:#f1f5f9;--card:#fff;--text:#1e293b;--muted:#64748b;--border:#dbe3ef;--danger:#dc2626;--success:#059669}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(135deg,#eef4ff,#f8fafc);font-family:"Segoe UI",Arial,sans-serif;color:var(--text);min-height:100vh}
+.app{max-width:1180px;margin:28px auto;padding:0 18px}
+.topbar{background:linear-gradient(135deg,#0f172a,#1e3a8a);color:white;border-radius:18px;padding:22px 26px;box-shadow:0 12px 35px rgba(15,23,42,.18);margin-bottom:20px}
+.brand{font-size:24px;font-weight:800;letter-spacing:.2px}.subtitle{opacity:.8;margin-top:5px}
+.nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.nav a{color:#e2e8f0;background:rgba(255,255,255,.09);padding:9px 13px;border-radius:9px;text-decoration:none;font-weight:600}
+.nav a:hover{background:rgba(255,255,255,.18);color:#fff}
+.card{background:rgba(255,255,255,.96);border:1px solid rgba(219,227,239,.9);border-radius:16px;padding:25px;box-shadow:0 8px 28px rgba(30,41,59,.08);margin-bottom:20px}
+h1,h2,h3{margin-top:0;color:#163b65} h2{font-size:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.menu-card{display:block;background:#fff;border:1px solid var(--border);border-radius:14px;padding:20px;text-decoration:none;color:var(--text);transition:.2s;box-shadow:0 4px 12px rgba(30,41,59,.05)}
+.menu-card:hover{transform:translateY(-3px);border-color:#93c5fd;box-shadow:0 10px 24px rgba(37,99,235,.12)}
+.menu-card .num{display:inline-flex;width:34px;height:34px;border-radius:10px;background:#dbeafe;color:#1d4ed8;align-items:center;justify-content:center;font-weight:800;margin-bottom:12px}
+.menu-card .title{font-weight:750;font-size:17px}.menu-card p{color:var(--muted);font-size:14px;line-height:1.5}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}
+label{font-weight:700;color:#334155}
+input,select,textarea{width:100%;padding:11px 13px;border:1px solid #cbd5e1;border-radius:9px;background:#fff;color:var(--text);font-size:14px;transition:.15s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:#60a5fa;box-shadow:0 0 0 4px rgba(37,99,235,.1)}
+button,.ui-button{background:var(--primary)!important;color:white!important;border:0!important;border-radius:9px!important;padding:10px 16px!important;font-weight:700!important;cursor:pointer!important;margin:3px}
+button:hover,.ui-button:hover{background:var(--primary-dark)!important}
+.actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}
+table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+th{background:#0f2f57;color:#fff;padding:13px;text-align:left;font-size:14px}
+td{padding:12px;border-bottom:1px solid #e8edf4;font-size:14px}
+tr:last-child td{border-bottom:0} tr:hover td{background:#f8fbff}
+.message,.ui-messages-info{padding:11px 14px;border-radius:9px;background:#ecfdf5;color:#047857;border:1px solid #a7f3d0;margin:12px 0}
+.error,.ui-message-error{color:var(--danger);font-size:13px}
+.searchbar{display:flex;gap:9px;align-items:center;margin-bottom:18px}
+.searchbar input{max-width:360px}
+.badge{display:inline-block;padding:4px 9px;border-radius:999px;background:#e0f2fe;color:#0369a1;font-size:12px;font-weight:700}
+.footer{text-align:center;color:var(--muted);padding:20px 0 35px;font-size:13px}
+@media(max-width:700px){.app{margin:12px auto}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.topbar{padding:18px}.card{padding:18px}.searchbar{flex-direction:column;align-items:stretch}}
